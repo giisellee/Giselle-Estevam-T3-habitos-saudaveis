@@ -5,16 +5,10 @@
     box-sizing: border-box;
 }
 
-body {
-    width: 100vw;
-    height: 100vh;
-    justify-content: center;
-    background-color: #b4d3b2;
-}
-
 .titulo {
     color: #fff;
     font-size: 100px;
+    text-decoration: underline;
     text-align: center;
 
 }
@@ -23,4 +17,36 @@ body {
     color: #fff;
     font-size: 50px;
     text-align: center;
+}
+
+.pequeno-titulo {
+    font-size: 15px;
+}
+
+/* nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    position: fixed;
+    background-color: #fff;
+    height: 5vh;
+
+} */
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #a8ca7e;
+}
+
+main {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    
 }
