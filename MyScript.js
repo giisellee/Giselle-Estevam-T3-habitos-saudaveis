@@ -14,42 +14,42 @@ const calcula_imc = () => {
         if (idade_em_Numero > 60) {
             if (imc <= 22) {
                 classificacao = 'Baixo peso'
-                imagem_classificacao = '/img/classificacao-imc-baixo-peso.png'
+                imagem_classificacao = 'img/classificacao-imc-baixo-peso.png'
             }
             else if (imc < 27){
                 classificacao = 'Adequado ou eutrófico'
-                imagem_classificacao = '/img/classificacao-imc-peso-normal.png'
+                imagem_classificacao = 'img/classificacao-imc-peso-normal.png'
             }
             else if (imc >= 27) {
                 classificacao = 'Sobrepeso'
-                imagem_classificacao = '/img/classificacao-imc-sobrepeso.png'
+                imagem_classificacao = 'img/classificacao-imc-sobrepeso.png'
             }
         }
         // Se a pessoa NÃO for idosa
         else {
             if (imc < 18.5) {
                 classificacao = 'Baixo peso'
-                imagem_classificacao = '/img/classificacao-imc-baixo-peso.png'
+                imagem_classificacao = 'img/classificacao-imc-baixo-peso.png'
             }
             else if (imc < 25.0) {
                 classificacao = 'Peso normal'
-                imagem_classificacao = '/img/classificacao-imc-peso-normal.png'
+                imagem_classificacao = 'img/classificacao-imc-peso-normal.png'
             }
             else if (imc < 30.0) {
                 classificacao = 'Excesso de peso'
-                imagem_classificacao = '/img/classificacao-imc-sobrepeso.png'
+                imagem_classificacao = 'img/classificacao-imc-sobrepeso.png'
             }
             else if (imc < 35.0) {
                 classificacao = 'Obesidade de Classe I'
-                imagem_classificacao = '/img/classificacao-imc-obesidade-1.png'
+                imagem_classificacao = 'img/classificacao-imc-obesidade-1.png'
             }
             else if (imc < 40.0) {
                 classificacao = 'Obesidade de Classe II'
-                imagem_classificacao = '/img/classificacao-imc-obesidade-2.png'
+                imagem_classificacao = 'img/classificacao-imc-obesidade-2.png'
             }
             else {
                 classificacao = 'Obesidade de Classe III'
-                imagem_classificacao = '/img/classificacao-imc-obesidade-3.png'
+                imagem_classificacao = 'img/classificacao-imc-obesidade-3.png'
             }
         }
         const resultadoDiv = document.createElement('div');
