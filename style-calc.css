@@ -57,6 +57,14 @@ button {
     color: #000;
 }
 
+.resultado-container {
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
 @media (max-width: 500px) {
     body, input, button {
         font-size: 15px;
